@@ -24,6 +24,17 @@ section, summary, time, mark, audio, video {
 	margin-top: 2em;
 }
 
+#project-spacer{
+	margin-left: 5px;
+}
+
+#project-link{
+	border-bottom: dotted 1px;
+}
+#project-link:hover {
+	border-color: transparent;
+}
+
 .tooltip {
 	position: relative;
 	display: inline-block;
@@ -149,7 +160,6 @@ input, select, textarea {
 		-webkit-transition: border-color 0.2s ease-in-out;
 		-ms-transition: border-color 0.2s ease-in-out;
 		transition: border-color 0.2s ease-in-out;
-		border-bottom: dotted 1px;
 		color: inherit;
 		outline: 0;
 		text-decoration: none;
